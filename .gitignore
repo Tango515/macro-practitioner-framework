@@ -1,0 +1,9 @@
+.tmp/
+tmp/
+stdout
+wechat_voice_loopback/
+codex-proxy-admin_C.bat
+start-codex-proxy-admin.bat
+start-codex-proxy.bat
+start-codex-proxy.ps1
+skills/*.zip

@@ -1,0 +1,5 @@
+version: 1
+interface:
+  display_name: Macro Practitioner Framework
+  short_description: Action-oriented macro analysis grounded in Soros, Dalio, and Druckenmiller.
+  default_prompt: Analyze the macro situation using the macro-practitioner-framework and turn it into practical actions, signals, and invalidation conditions.

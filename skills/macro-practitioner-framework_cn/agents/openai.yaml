@@ -1,0 +1,5 @@
+version: 1
+interface:
+  display_name: 宏观实干派框架
+  short_description: 基于索罗斯、达利欧和德鲁肯米勒的行动型宏观分析。
+  default_prompt: 请用宏观实干派框架分析当前宏观环境，并输出可执行建议、验证信号和失效条件。
