@@ -1,5 +1,7 @@
 # Macro Practitioner Framework
 
+[简体中文](README.zh-CN.md) | English
+
 This repository contains a practical macro investing framework and two Codex skills, one in English and one in Chinese.
 
 The framework is based on practitioner thinking from George Soros, Ray Dalio, and Stanley Druckenmiller. It intentionally avoids academic finance models that rely on strong equilibrium assumptions. The goal is to produce an action-oriented process for macro analysis, positioning, risk control, and review.
@@ -50,6 +52,7 @@ Use these six drivers in every macro review:
 .
 ├── README.md
 ├── README.en.md
+├── README.zh-CN.md
 ├── macro_investing_framework.md
 └── skills
     ├── macro-practitioner-framework
