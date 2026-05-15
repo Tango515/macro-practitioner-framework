@@ -299,3 +299,41 @@
 - 在真正的大机会来时敢于放大
 
 真正的宏观投资，不是拥有最多观点，而是拥有最清晰的因果、最好的赔率和最强的修正能力。
+
+## 仓库结构
+
+```text
+.
+├── README.md
+├── README.en.md
+├── README.zh-CN.md
+├── macro_investing_framework.md
+└── skills
+    ├── macro-practitioner-framework
+    │   ├── SKILL.md
+    │   ├── agents
+    │   │   └── openai.yaml
+    │   └── references
+    │       └── framework.md
+    └── macro-practitioner-framework_cn
+        ├── SKILL.md
+        ├── agents
+        │   └── openai.yaml
+        └── references
+            └── framework_cn.md
+```
+
+## 安装为 Codex Skill
+
+把需要使用的 skill 文件夹复制到 Codex skills 目录：
+
+```powershell
+Copy-Item -Recurse -Force ".\skills\macro-practitioner-framework" "$env:USERPROFILE\.codex\skills\"
+Copy-Item -Recurse -Force ".\skills\macro-practitioner-framework_cn" "$env:USERPROFILE\.codex\skills\"
+```
+
+复制完成后重启 Codex。
+
+## 风险提示
+
+本框架仅用于研究和决策辅助，不构成金融投资建议。任何真实仓位决策都应结合组合约束、流动性、风险承受能力，以及宏观判断可能出错的情况。
